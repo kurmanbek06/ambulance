@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#section {
+  background: url("/img/background.png") no-repeat;
+  height: 902px;
+}
+#section .section {
+  height: 902px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#section .section__icon {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#section .section__icon__text1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+#section .section__icon__text1__textS {
+  color: #0000BB;
+}
+#section .section__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#section .section__btn__text2 {
+  height: 235px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#section .section__btn__text2__textM {
+  width: 522px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+#section .section__btn__number {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  color: #16AEC0;
+  width: 233px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F0F0F0;
+  box-shadow: -0.63587px 6.3587px 6.3587px rgba(87, 101, 228, 0.25), inset -1.27174px -1.27174px 2.54348px rgba(0, 0, 0, 0.2), inset 1.90761px 2.54348px 6.3587px #FFFFFF;
+  border-radius: 9.53804px;
+}
+#section .section__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#section .section__block__text3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 144px;
+  border-radius: 45px;
+  background: #FFFFFF;
+  box-shadow: -5.42092px 5.42092px 9.03487px rgba(0, 0, 0, 0.17);
+}
+#section .section__block__text3__textH2 {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#section .section__block__text3__textH2__text1H2N {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.6488px;
+  color: #67CDD9;
+}
+#section .section__block__text3__textH2__textD {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#section .section__block__text3__textH2__textD__text1H2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.6488px;
+  color: #67CDD9;
+}
+
+#services .services__textSer__textSh1 {
+  margin: 100px 0 31px 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #67CDD9;
+}
+#services .services__SBlock {
+  height: 1150px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#services .services__SBlock__SBlock1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#services .services__SBlock__SBlock1__backIcon {
+  position: absolute;
+}
+#services .services__SBlock__SBlock1__block1B1 {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 509px;
+  height: 340px;
+  background: #FAFAFA;
+  box-shadow: 0 4px 19px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+}
+#services .services__SBlock__SBlock1__block1B1__blockJ {
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#services .services__SBlock__SBlock1__block1B1__blockJ__BloTextH1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #67CDD9;
+}
+#services .services__SBlock__SBlock1__block1B1__blockJ__BloTextH3 {
+  width: 426px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #5A5A5A;
+}
+#services .services__SBlock__SBlock1__block1B1__blockJ__BloText1H1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #67CDD9;
+}
+#services .services__SBlock__SBlock1__block1B1__blockU {
+  margin: 0 0 76px 0;
+  height: 190px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#services .services__SBlock__SBlock1__block1B1__blockY {
+  margin: 0 0 150px 0;
+  height: 115px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#contacts {
+  background: #F3FEFF;
+  height: 830px;
+}
+#contacts .contacts {
+  margin: 100px 0 0 0;
+}
+#contacts .contacts__contactT {
+  display: flex;
+  align-items: end;
+  height: 120px;
+}
+#contacts .contacts__contactT__textT {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #00A1B4;
+}
+#contacts .contacts__contactMap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contacts .contacts__contactMap__contactN {
+  z-index: 1;
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 424px;
+  height: 570px;
+  background: #E9FDFF;
+  box-shadow: 0 4px 19px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+}
+#contacts .contacts__contactMap__contactN__contactBlock {
+  width: 296px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contacts .contacts__contactMap__contactN__contactBlock__number1 {
+  margin: 0 -24px 0 12px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  color: #00A1B4;
+}
+#contacts .contacts__contactMap__contactN__contactBlock__contWhat {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #00A1B4;
+}
+#contacts .contacts__contactMap__contactN__contactBlock1 {
+  width: 483px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contacts .contacts__contactMap__contactN__contactBlock1__contGps {
+  width: 332px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #00A1B4;
+}
+#contacts .contacts__contactMap__contactN__contactBlock1__iconCon {
+  margin: 0 15px 0 0;
+}
+#contacts .contacts__contactMap__contactN__numberBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contacts .contacts__contactMap__contactN__numberBlock__contactNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  color: #16AEC0;
+  width: 221px;
+  height: 70px;
+  background: #F0F0F0;
+  box-shadow: -1px 10px 10px rgba(87, 101, 228, 0.25), inset -2px -2px 4px rgba(0, 0, 0, 0.2), inset 3px 4px 10px #FFFFFF;
+  border-radius: 15px;
+}
+#contacts .contacts__contactMap__contactMapBlock {
+  width: 784px;
+  height: 640px;
+}
+
+#footer {
+  background: #00A1B4;
+}
+#footer .footer {
+  padding: 35px 0 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer .footer__iconF {
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer .footer__iconF__fooText {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+#footer .footer__iconF__fooText__fooBText {
+  color: #0000BB;
+}
+#footer .footer__textH {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#footer .footer__textH__textH1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+#footer .footer__numberF__numberTel {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 1000px;
+  }
+  #services .services__SBlock__SBlock1__backIcon {
+    width: 990px;
+  }
+  #section .section__btn {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
