@@ -8,43 +8,43 @@
   margin: 0 auto;
 }
 
-.section1 {
+#section {
   background: url("/img/Rectangle 9.png") no-repeat center/cover;
 }
-.section1 .section {
+#section .section {
   height: 902px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
 }
-.section1 .section__icon {
+#section .section__icon {
   width: 250px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.section1 .section__icon__text1 {
+#section .section__icon__text1 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   color: #FFFFFF;
 }
-.section1 .section__icon__text1__textS {
+#section .section__icon__text1__textS {
   color: #0000BB;
 }
-.section1 .section__btn {
+#section .section__btn {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.section1 .section__btn__text2 {
+#section .section__btn__text2 {
   height: 235px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
-.section1 .section__btn__text2__textM {
+#section .section__btn__text2__textM {
   width: 522px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -52,7 +52,7 @@
   font-size: 50px;
   color: #FFFFFF;
 }
-.section1 .section__btn__number {
+#section .section__btn__number {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -68,12 +68,12 @@
   box-shadow: -0.63587px 6.3587px 6.3587px rgba(87, 101, 228, 0.25), inset -1.27174px -1.27174px 2.54348px rgba(0, 0, 0, 0.2), inset 1.90761px 2.54348px 6.3587px #FFFFFF;
   border-radius: 9.53804px;
 }
-.section1 .section__block {
+#section .section__block {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.section1 .section__block__text3 {
+#section .section__block__text3 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,27 +83,27 @@
   background: #FFFFFF;
   box-shadow: -5.42092px 5.42092px 9.03487px rgba(0, 0, 0, 0.17);
 }
-.section1 .section__block__text3__textH2 {
+#section .section__block__text3__textH2 {
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
 }
-.section1 .section__block__text3__textH2__text1H2N {
+#section .section__block__text3__textH2__text1H2N {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12.6488px;
   color: #67CDD9;
 }
-.section1 .section__block__text3__textH2__textD {
+#section .section__block__text3__textH2__textD {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.section1 .section__block__text3__textH2__textD__text1H2 {
+#section .section__block__text3__textH2__textD__text1H2 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
