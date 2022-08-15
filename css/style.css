@@ -9,7 +9,7 @@
 }
 
 #section {
-  background: url("/img/Rectangle 9.png") no-repeat center/cover;
+  background: url("../img/Rectangle 9.png") no-repeat center/cover;
 }
 #section .section {
   height: 902px;
@@ -343,8 +343,31 @@
   #services .services__SBlock__SBlock1__backIcon {
     width: 990px;
   }
+  #services .services__SBlock__SBlock1__block1B1 {
+    width: 439px;
+    height: 317px;
+  }
+  #section .section {
+    height: 1050px;
+  }
   #section .section__btn {
     flex-direction: column;
+  }
+  #section .section__btn__text2 {
+    align-items: center;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 940px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 740px;
+  }
+  #section .section__block {
+    display: none;
   }
 }
 

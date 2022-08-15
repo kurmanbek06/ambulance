@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 #section{
-  background: url('/img/Rectangle 9.png')no-repeat center/cover;
+  background: url("../img/Rectangle 9.png") no-repeat center/cover;
    .section{
      height: 902px;
      display: flex;
@@ -350,19 +350,62 @@
             width: 990px;
 
           }
+          &__block1B1{
+            width: 439px;
+            height: 317px;
+          }
         }
       }
     }
   }
   #section{
     .section{
+      height: 1050px;
       &__btn{
         flex-direction: column;
         &__icon2{
 
         }
+        &__text2{
+          align-items: center;
+        }
       }
     }
   }
 }
+@media (max-width: 992px) {
+  .container{
+    width: 940px;
+  }
+}
+@media (max-width: 768px) {
+  .container{
+    width: 740px;
+  }
+  #section{
+    .section{
+      &__block{
+        display: none;
+      }
+    }
+  }
 
+}
+@media (max-width: 576px) {
+  
+}
+@media (max-width: 450px) {
+  
+}
+@media (max-width: 420px) {
+  
+}
+@media (max-width: 380px) {
+  
+}
+@media (max-width: 360px) {
+
+}
+@media (max-width: 320px) {
+
+}
