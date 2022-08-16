@@ -193,6 +193,12 @@
         }
       }
     }
+    &__H1{
+      display: none;
+    }
+    &__TBlock{
+      display: none;
+    }
   }
 }
 #contacts{
@@ -216,6 +222,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      &__contactTel{
+        display: none;
+      }
+      &__contactTelNum{
+        display: none;
+      }
       &__contactN{
         z-index: 1;
         margin: 0 0 0 0;
@@ -355,7 +367,7 @@
   margin: 0 auto;
   height: 0;
   line-height: 18px;
-  padding: 0 30px;
+  padding: 0 20px;
   transition: color 0.5s, padding 0.5s;
   overflow: hidden;
   font-family: Verdana, sans-serif;
@@ -363,12 +375,13 @@
 }
 .acor-container .acor-body p {
   margin: 0 0 10px;
+  width: 635px;
 }
 .acor-container label {
   cursor: pointer;
   display: block;
   padding: 15px 20px;
-  width: 100%;
+  width: 667px;
   color: #67bbd9;
   font-weight: 700;
   z-index: 100;
@@ -384,7 +397,7 @@
   display: none;
 }
 .acor-container label:before {
-  content: url("../img/arrow.png");
+  content: url("../img/Group 42.png");
   float: right;
 }
 .acor-container input:checked + label {
@@ -406,7 +419,7 @@
   font-weight: 500;
   font-size: 16px;
   color: #5A5A5A;
-  padding: 20px 30px 10px;
+  padding: 20px 20px 10px;
 }
 
 
@@ -507,6 +520,10 @@
   }
   #services{
     .services{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
       &__SBlock{
         display: none;
       }
@@ -517,24 +534,338 @@
           justify-content: center;
         }
       }
+      &__H1{
+        padding: 55px 0 0 0;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 22px;
+        color: #67CDD9;
+      }
+      &__TBlock{
+        padding: 50px 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 238px;
+        &__TBlockW{
+          width: 466px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          &__blockT1{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            &__tBlockH1{
+              font-family: 'Montserrat', sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 15px;
+              color: #67CDD9;
+            }
+            &__block2{
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              flex-direction: column;
+              &__h1block2{
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                color: #67CDD9;
+              }
+            }
+          }
+          &__blockT2{
+            margin: 0 11px 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+  #contacts{
+    height: 925px;
+    .contacts{
+      &__contactMap{
+        justify-content: space-between;
+        height: 765px;
+        flex-direction: column;
+        &__contactN{
+          display: none;
+        }
+        &__contactMapBlock{
+          width: 636px;
+          height: 321px;
+        }
+        &__contactTel{
+          height: 300px;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          &__href{
+            width: 549px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            &__numberH{
+              font-family: 'Montserrat', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 30px;
+              text-decoration: none;
+              color: #00A1B4;
+            }
+          }
+        }
+        &__contactTelNum{
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          text-decoration: none;
+          color: #16AEC0;
+          width: 233px;
+          height: 63px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #F0F0F0;
+          box-shadow: -0.63587px 6.3587px 6.3587px rgba(87, 101, 228, 0.25), inset -1.27174px -1.27174px 2.54348px rgba(0, 0, 0, 0.2), inset 1.90761px 2.54348px 6.3587px #FFFFFF;
+          border-radius: 9.53804px;
+        }
+      }
+      &__contactT{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &__textT{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  #footer{
+    .footer{
+      flex-direction: column;
+      height: 300px;
     }
   }
 }
 @media (max-width: 576px) {
-  
+  .container{
+    width: 540px;
+  }
+  #section{
+    .section{
+      &__btn{
+        &__icon2{
+          &__iconH{
+            width: 527px;
+            height: 465px;
+          }
+        }
+      }
+      &__icon{
+        width: 555px;
+      }
+    }
+  }
+  #services{
+    .acor-container{
+      width: 450px;
+    }
+    .acor-container label{
+      width: 446px;
+    }
+  }
+  #contacts{
+    .contacts{
+      &__contactMap{
+        &__contactMapBlock{
+          width: 379px;
+        }
+      }
+    }
+  }
 }
 @media (max-width: 450px) {
-  
+  .container{
+    width: 410px;
+  }
+  #section{
+    .section{
+      &__btn{
+        &__icon2{
+          &__iconH{
+            width: 418px;
+            height: 487px;
+          }
+        }
+        &__text2{
+          &__textM{
+            width: 314px;
+          }
+        }
+      }
+      &__icon{
+        width: 410px;
+      }
+    }
+  }
+  #services{
+    .acor-container{
+    }
+    .acor-container label{
+      width: 406px;
+    }
+    .acor-container .acor-body p{
+      width: 345px;
+    }
+    .services{
+      &__TBlock{
+        &__TBlockW{
+          width: 380px;
+        }
+      }
+    }
+  }
+  #contacts{
+    .contacts{
+      &__contactMap{
+        &__contactTel{
+          &__href{
+            width: 291px;
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 420px) {
-  
+  .container{
+    width: 400px;
+  }
+  #services{
+    .acor-container{
+      width: 370px;
+    }
+    .acor-container label{
+      width: 322px;
+    }
+  }
 }
 @media (max-width: 380px) {
-  
+  .container{
+    width: 340px;
+  }
+  #section{
+    .section{
+      &__icon{
+        width: 340px;
+      }
+      &__btn{
+        &__icon2{
+          &__iconH{
+            width: 361px;
+          }
+        }
+      }
+    }
+  }
+  #contacts{
+    .contacts{
+      &__contactMap{
+        &__contactMapBlock{
+          width: 320px;
+        }
+      }
+    }
+  }
 }
 @media (max-width: 360px) {
-
+  .container{
+    width: 320px;
+  }
+  #services{
+    .services{
+      &__TBlock{
+        &__TBlockW{
+          width: 320px;
+        }
+      }
+    }
+    .acor-container{
+      width: 354px;
+    }
+    .acor-container label{
+      width: 300px;
+    }
+  }
+  #section{
+    .section{
+      &__btn{
+        &__icon2{
+          &__iconH{
+            width: 360px;
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 320px) {
-
+  .container{
+    width: 290px;
+  }
+  #services{
+    .services{
+    }
+    .services .acor-container label{
+      width: 280px;
+    }
+    .acor-container{
+      width: 320px;
+    }
+  }
+  #section{
+    .section{
+      &__btn{
+        &__icon2{
+          &__iconH{
+            width: 288px;
+          }
+        }
+        &__text2{
+          &__textM{
+            font-size: 36px;
+            width: 198px;
+          }
+        }
+      }
+      &__icon{
+        width: 280px;
+      }
+    }
+  }
+  #contacts{
+    .contacts{
+      &__contactMap{
+        &__contactMapBlock{
+          width: 290px;
+        }
+      }
+    }
+  }
 }
