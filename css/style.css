@@ -113,6 +113,9 @@
   font-size: 12.6488px;
   color: #67CDD9;
 }
+#section .section .wrapper {
+  display: none;
+}
 
 #services .services__textSer__textSh1 {
   margin: 100px 0 31px 0;
@@ -351,6 +354,71 @@
   color: #FFFFFF;
 }
 
+.btn1 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  background: darkblue;
+  border-radius: 100px;
+}
+
+.popup {
+  display: block;
+  position: relative;
+  right: 14px;
+  top: -70px;
+}
+
+.popup2 {
+  background: green;
+  border-radius: 50px;
+  position: relative;
+  left: -7px;
+  bottom: 0;
+  width: 47px;
+}
+
+.popup1 {
+  position: relative;
+  background: dodgerblue;
+  border-radius: 50px;
+  top: 10px;
+  left: 35px;
+  width: 44px;
+}
+
+#modal {
+  display: none;
+}
+
+#modal:checked ~ .popup {
+  top: -100px;
+}
+
+#modal:checked ~ .popup .popup1 {
+  top: 24px;
+  left: -35px;
+  position: relative;
+}
+
+#modal:checked ~ .popup .popup2 {
+  top: -34px;
+  left: -16px;
+  position: relative;
+}
+
 .acor-container {
   display: none;
   margin: 20px 0;
@@ -497,6 +565,12 @@
   }
   #section .section__btn__text2 {
     height: 126px;
+  }
+  #section .section .wrapper {
+    display: block;
+    position: absolute;
+    left: 608px;
+    top: 980px;
   }
   #services .services {
     display: flex;
@@ -646,6 +720,9 @@
   #section .section__icon {
     width: 555px;
   }
+  #section .section .wrapper {
+    left: 457px;
+  }
   #services .acor-container {
     width: 450px;
   }
@@ -670,6 +747,10 @@
   #section .section__icon {
     width: 410px;
   }
+  #section .section .wrapper {
+    left: 355px;
+    top: 909px;
+  }
   #services .acor-container label {
     width: 406px;
   }
@@ -693,6 +774,10 @@
   #services .acor-container label {
     width: 322px;
   }
+  #section .section .wrapper {
+    left: 325px;
+    top: 879px;
+  }
 }
 @media (max-width: 380px) {
   .container {
@@ -703,6 +788,10 @@
   }
   #section .section__btn__icon2__iconH {
     width: 361px;
+  }
+  #section .section .wrapper {
+    left: 283px;
+    top: 866px;
   }
   #contacts .contacts__contactMap__contactMapBlock {
     width: 320px;
@@ -724,6 +813,10 @@
   #section .section__btn__icon2__iconH {
     width: 360px;
   }
+  #section .section .wrapper {
+    left: 261px;
+    top: 863px;
+  }
 }
 @media (max-width: 320px) {
   .container {
@@ -744,6 +837,10 @@
   }
   #section .section__icon {
     width: 280px;
+  }
+  #section .section .wrapper {
+    left: 218px;
+    top: 848px;
   }
   #contacts .contacts__contactMap__contactMapBlock {
     width: 290px;

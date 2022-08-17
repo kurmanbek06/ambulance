@@ -111,6 +111,9 @@
          }
        }
      }
+     .wrapper{
+       display: none;
+     }
   }
 }
 #services{
@@ -358,6 +361,73 @@
 
 
 
+.wrapper{
+
+}
+
+.btn1{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  background: darkblue;
+  border-radius: 100px;
+}
+.popup{
+  display: block;
+  position: relative;
+  right: 14px;
+  top: -70px;
+}
+.popup2{
+  background: green;
+  border-radius: 50px;
+  position: relative;
+  left: -7px;
+  bottom: 0;
+  width: 47px;
+}
+.popup1{
+  position: relative;
+  background: dodgerblue;
+  border-radius: 50px;
+  top: 10px;
+  left: 35px;
+  width: 44px;
+}
+#modal{
+  display: none;
+}
+#modal:checked ~ .popup{
+  top: -100px;
+
+
+}
+#modal:checked ~ .popup .popup1{
+  top: 24px;
+  left: -35px;
+  position: relative;
+}
+#modal:checked ~ .popup .popup2{
+  top: -34px;
+  left: -16px;
+  position: relative;
+}
+
+
+
 .acor-container {
   display: none;
   margin: 20px 0;
@@ -515,6 +585,12 @@
         &__text2{
           height: 126px;
         }
+      }
+      .wrapper{
+        display: block;
+        position: absolute;
+        left: 608px;
+        top: 980px;
       }
     }
   }
@@ -680,6 +756,9 @@
       &__icon{
         width: 555px;
       }
+      .wrapper{
+        left: 457px;
+      }
     }
   }
   #services{
@@ -721,6 +800,10 @@
       }
       &__icon{
         width: 410px;
+      }
+      .wrapper{
+        left: 355px;
+        top: 909px;
       }
     }
   }
@@ -765,6 +848,14 @@
       width: 322px;
     }
   }
+  #section{
+    .section{
+      .wrapper{
+        left: 325px;
+        top: 879px
+      }
+    }
+  }
 }
 @media (max-width: 380px) {
   .container{
@@ -781,6 +872,10 @@
             width: 361px;
           }
         }
+      }
+      .wrapper{
+        left: 283px;
+        top: 866px;
       }
     }
   }
@@ -822,6 +917,10 @@
           }
         }
       }
+      .wrapper{
+        left: 261px;
+        top: 863px;
+      }
     }
   }
 }
@@ -856,6 +955,10 @@
       }
       &__icon{
         width: 280px;
+      }
+      .wrapper{
+        left: 218px;
+        top: 848px;
       }
     }
   }
